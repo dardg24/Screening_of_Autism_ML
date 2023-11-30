@@ -1,0 +1,31 @@
+GradientBoosting:
+  best_accuracy: 0.6784503016830741
+  best_parameters:
+    classifier__learning_rate: 0.1
+    classifier__max_depth: 7
+    classifier__n_estimators: 200
+KNN:
+  best_accuracy: 0.6465190763507689
+  best_parameters:
+    classifier__n_neighbors: 3
+    classifier__weights: distance
+LogisticRegression:
+  best_accuracy: 0.6477856916027764
+  best_parameters:
+    classifier__C: 0.1
+MLPClassifier:
+  best_accuracy: 0.6976037744408655
+  best_parameters:
+    classifier__activation: relu
+    classifier__alpha: 0.001
+    classifier__hidden_layer_sizes: !!python/tuple
+    - 100
+RandomForest:
+  best_accuracy: 0.6839776799891122
+  best_parameters:
+    classifier__max_depth: 10
+    classifier__min_samples_split: 10
+    classifier__n_estimators: 200
+PCA:
+  n_components:
+              250
